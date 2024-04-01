@@ -1,0 +1,87 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Html</title>
+</head>
+<body>
+    <header>
+        <p>Atividade 09 - Formulários no HTML</p>
+        <p>Vitor Hugo da Cunha</p>
+    </header>
+    <section>
+    <div id="BoxUm">    
+        <h2>O que é um Form?</h2>
+    <a>Um Form é um container usado para agrupar controles responsáveis pela entrada de dados, ou simplificando, input do usuário. Pode ser caracterizado como uma views com scroll, que possui controles estáticos como uma tela de configurações com botões toggle e áreas de texto.</a>
+    </div>
+    </section>
+    <section>
+        <div id="BoxTres">
+        <h2>Container Form</h2>
+        <a>"Container Form", é um conjunto de Forms que são agrupadas a partir de um container, ganhando a tag "Container Form".</a>
+        <br>
+        <br>
+    </div>
+        <div id="container-form"> 
+            <h2>Form</h2> 
+                <form action="/enviar_dados" method="POST"> 
+                    <label for="nome">Nome:</label> 
+                    <input type="text" id="nome" name="nome" required>
+                        <br>
+                        <br> 
+                    <label for="email">Email:</label> 
+                    <input type="email" id="email" name="email" required>
+                        <br>
+                        <br> 
+                    <label for="mensagem">Mensagem:</label>
+                        <br> 
+                    <textarea name="mensagem" rows="4" cols="50" required></textarea>
+                        <br>
+                        <br> 
+                    <input type="submit" value="Enviar"> 
+                </form> 
+            </div>
+
+
+      
+    </section>
+        <div id="BoxDois"> 
+        <h2>Tipos de Input</h2>
+    <section>
+            <li class="Aumenta">< input type="text"></li>
+            <li class="Aumenta"> < input type="password"></li>
+            <li class="Aumenta"> < input type="email"></li>
+            <li class="Aumenta"> < input type="number"></li>
+            <li class="Aumenta"> < input type="checkbox"></li>
+            <li class="Aumenta"> < input type="radio"></li>
+            <li class="Aumenta"> < input type="submit"></li>
+            <li class="Aumenta"> < input type="file"></li>
+            <li class="Aumenta"> < input type="date"></li>
+            <li class="Aumenta"> < input type="time"></li>
+            <li class="Aumenta"> < input type="color"></li>
+        </div>  
+        
+            <div>
+                <form action="/enviardados" method="post">
+                    <label for="mensagem">Mensagem:</label>
+                        <br> 
+                    <textarea name="mensagem" rows="4" cols="50" required></textarea>
+                    <label for="email">Email:</label> 
+                    <input type="email" name="email" required>
+                    <label for="Time">Email:</label> 
+                    <input type="time" name="Tempo" required>
+                </form>
+            </div>
+
+    </section>
+    <section>
+        <div id="BoxQuatro">
+        <h2>O que é "Post"?</h2>
+        <a class="Aumenta">"Post", é um metódo de envio de dados de um Forms para o servidor WEB, usando o metódo Post para a requisição HTTP, significa que são enviados de forma anônima pro servidor, são normalmente usados para logins mais particulares, informações de senhas, cartãos(formas de pagamentos), etc...
+    
+        </a>
+        </div>
+    </section>
+</body>
+</html>

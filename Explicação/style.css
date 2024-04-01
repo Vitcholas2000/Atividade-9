@@ -1,0 +1,89 @@
+header{
+    text-align: center;
+    font-size: 23px;
+    background-color: #007bff;
+    color: white;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
+body{
+    background-color: #e6f3ff;
+}
+
+#container-form { 
+    width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+#container-form h2 { 
+    text-align: center; 
+    padding-top: 0.3%;
+} 
+
+#container-form form { 
+    display: flex; 
+    flex-direction: column; 
+} 
+
+#container-form label { 
+    margin-bottom: 10px; 
+} 
+
+#container-form input[type="text"], #container-form input[type="email"], #container-form textarea { 
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+} 
+
+#container-form input[type="submit"] { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #007bff; 
+    color: #fff; border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+} 
+    
+#container-form input[type="submit"]:hover {
+         background-color: #0056b3;
+}
+
+#BoxUm{
+    background-color: #007bff;
+    color: white;
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+    margin-top: 2%;
+    box-shadow: 10px 5px 5px rgb(153, 152, 152);
+}
+
+#BoxDois{
+    background-color: #007bff;
+    color: white;
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+    margin-top: 2%;
+    box-shadow: 10px 5px 5px rgb(153, 152, 152);
+}
+
+.Aumenta{
+    font-size: 20px;
+}
+
+#BoxTres{
+    background-color: #007bff;
+    color: white;
+    box-shadow: 10px 5px 5px rgb(153, 152, 152);
+}
+
+#BoxQuatro{
+    background-color: #007bff;
+    color: white;
+    box-shadow: 10px 5px 5px rgb(153, 152, 152);
+}
